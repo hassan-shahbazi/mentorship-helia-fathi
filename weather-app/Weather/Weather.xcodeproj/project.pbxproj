@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		AF01A32927C7CD4300918602 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF01A32827C7CD4300918602 /* AppDelegate.swift */; };
 		AF01A32B27C7CD4300918602 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF01A32A27C7CD4300918602 /* SceneDelegate.swift */; };
-		AF01A32D27C7CD4300918602 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF01A32C27C7CD4300918602 /* ViewController.swift */; };
+		AF01A32D27C7CD4300918602 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF01A32C27C7CD4300918602 /* Home.swift */; };
 		AF01A33027C7CD4300918602 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF01A32E27C7CD4300918602 /* Main.storyboard */; };
 		AF01A33227C7CD4500918602 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF01A33127C7CD4500918602 /* Assets.xcassets */; };
 		AF01A33527C7CD4500918602 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF01A33327C7CD4500918602 /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		AF01A32527C7CD4300918602 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF01A32827C7CD4300918602 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF01A32A27C7CD4300918602 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF01A32C27C7CD4300918602 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF01A32C27C7CD4300918602 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		AF01A32F27C7CD4300918602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF01A33127C7CD4500918602 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF01A33427C7CD4500918602 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +56,39 @@
 		AF01A32727C7CD4300918602 /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				AF2C4BF027CFFD6600511C0E /* Model */,
+				AF2C4BF127CFFD7200511C0E /* View */,
+				AF2C4BF227CFFD8D00511C0E /* ViewModel */,
 				AF01A32827C7CD4300918602 /* AppDelegate.swift */,
 				AF01A32A27C7CD4300918602 /* SceneDelegate.swift */,
-				AF01A32C27C7CD4300918602 /* ViewController.swift */,
-				AF01A32E27C7CD4300918602 /* Main.storyboard */,
 				AF01A33127C7CD4500918602 /* Assets.xcassets */,
-				AF01A33327C7CD4500918602 /* LaunchScreen.storyboard */,
 				AF01A33627C7CD4500918602 /* Info.plist */,
 			);
 			path = Weather;
+			sourceTree = "<group>";
+		};
+		AF2C4BF027CFFD6600511C0E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF2C4BF127CFFD7200511C0E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AF01A32E27C7CD4300918602 /* Main.storyboard */,
+				AF01A33327C7CD4500918602 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF2C4BF227CFFD8D00511C0E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AF01A32C27C7CD4300918602 /* Home.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF01A32D27C7CD4300918602 /* ViewController.swift in Sources */,
+				AF01A32D27C7CD4300918602 /* Home.swift in Sources */,
 				AF01A32927C7CD4300918602 /* AppDelegate.swift in Sources */,
 				AF01A32B27C7CD4300918602 /* SceneDelegate.swift in Sources */,
 			);
